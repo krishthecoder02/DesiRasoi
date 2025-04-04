@@ -1,18 +1,9 @@
 import React from "react";
-import {
-  View,
-  Text,
-  Image,
-  StyleSheet,
-  TouchableOpacity,
-  Dimensions,
-} from "react-native";
+import { View, Text, Image, StyleSheet, TouchableOpacity } from "react-native";
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from "react-native-responsive-screen";
-
-const { width, height } = Dimensions.get("window");
 
 const WelcomeScreen = ({ navigation }) => {
   return (
@@ -31,7 +22,7 @@ const WelcomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate("Home")}
       >
         <Text style={{ color: "#f2f2f2", fontWeight: "bold", fontSize: 16 }}>
-          Let's Start Cooking
+          चलिए खाना बनाते हैं
         </Text>
       </TouchableOpacity>
     </View>
