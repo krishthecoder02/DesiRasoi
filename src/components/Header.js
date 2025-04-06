@@ -9,7 +9,7 @@ import { FontAwesome } from "@expo/vector-icons";
 const Header = ({ headerText, navigation }) => {
   return (
     <View style={styles.container}>
-      <TouchableOpacity onPress={() => navigation.navigate("WelcomeScreen")}>
+      <TouchableOpacity onPress={() => navigation.goBack()}>
         <FontAwesome
           name="arrow-left"
           size={20}

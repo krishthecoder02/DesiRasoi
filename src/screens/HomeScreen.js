@@ -1,16 +1,28 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, ScrollView } from "react-native";
 import Header from "../components/Header";
 import Nasta from "../components/Nasta";
+import Mithai from "../components/Mithai";
+import RotiPuri from "../components/RotiPuri";
+import Manshari from "../components/manshari";
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from "react-native-responsive-screen";
 
 const Home = ({ navigation }) => {
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       <Header headerText={"भारतीय भोजन "} navigation={navigation} />
       <View>
         <Nasta />
+        <Mithai />
+        <RotiPuri />
+        <Manshari />
+        <Manshari />
+        <Manshari />
       </View>
-    </View>
+    </ScrollView>
   );
 };
 
@@ -19,6 +31,7 @@ export default Home;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#213555",
+    backgroundColor: "#f2f2f2",
+    marginBottom: wp(4),
   },
 });
