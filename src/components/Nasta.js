@@ -19,10 +19,10 @@ const Nasta = () => {
           renderItem={({ item }) => (
             <View
               style={{
-                padding: 5,
+                padding: wp(1),
                 // borderBottomWidth: 1,
-                height: 150,
-                width: 120,
+                height: wp(36),
+                width: wp(28),
               }}
             >
               <View
