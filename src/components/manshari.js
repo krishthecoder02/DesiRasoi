@@ -20,8 +20,8 @@ const Manshari = () => {
               style={{
                 padding: wp(1),
                 // borderBottomWidth: 1,
-                height: wp(36),
-                width: wp(28),
+                height: 145,
+                width: 115,
               }}
             >
               <View
