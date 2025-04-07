@@ -1,14 +1,26 @@
 import React from "react";
 import { View, Text, StyleSheet, FlatList, ScrollView } from "react-native";
-import Header from "../components/Header";
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from "react-native-responsive-screen";
+import { FontAwesome } from "@expo/vector-icons";
 
 const RecipeDetails = ({ route }) => {
   const { item } = route.params;
 
   return (
     <View style={styles.container}>
-      <View>
-        <Text style={styles.header}>🍛 {item.dish} बनाने की विधि:</Text>
+      <View style={{ backgroundColor: "#D84040", paddingVertical: wp(6) }}>
+        <FontAwesome
+          name="arrow-left"
+          size={20}
+          color="#fff"
+          style={styles.fontAwesome}
+        />
+        <Text style={[styles.header, { top: wp(7), paddingHorizontal: wp(8) }]}>
+          🍛 {item.dish} बनाने की विधि:
+        </Text>
       </View>
 
       <FlatList
@@ -29,7 +41,6 @@ const RecipeDetails = ({ route }) => {
 
 const styles = StyleSheet.create({
   container: {
-    padding: 16,
     backgroundColor: "#f2f2f2",
     flex: 1,
   },
@@ -37,16 +48,17 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: "bold",
     marginBottom: 16,
-    color: "#2E7D32",
+    color: "#ffffff",
   },
   stepBox: {
-    marginBottom: 16,
+    marginBottom: wp(2),
     backgroundColor: "#ffff",
     elevation: 10,
     padding: 12,
     borderRadius: 8,
     borderLeftWidth: 5,
     borderLeftColor: "#FFD54F",
+    marginHorizontal: 8,
   },
   stepTitle: {
     fontSize: 18,
