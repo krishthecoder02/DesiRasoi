@@ -86,7 +86,7 @@ const Mithai = () => {
   const navigation = useNavigation();
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>नाश्ता</Text>
+      <Text style={styles.text}>मिठाई</Text>
       <View>
         <FlatList
           data={mithaiList}
