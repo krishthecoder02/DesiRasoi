@@ -1671,7 +1671,7 @@ export const RotiPuriList = [
   {
     id: "1",
     dish: "चपाती",
-    img: require("../../assets/images/chaopati.png"),
+    img: require("../../assets/images/chaopati2.png"),
     ingredients: [
       { name: "गेहूं का आटा", quantity: "2 कप" },
       { name: "पानी", quantity: "आवश्यकतानुसार (गूंधने के लिए)" },
