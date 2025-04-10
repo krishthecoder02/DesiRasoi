@@ -65,7 +65,7 @@ export const nastaList = [
   {
     id: "2",
     dish: "उपमा",
-    img: require("../../assets/images/upma.jpg"),
+    img: require("../../assets/images/upma.png"),
     ingredients: [
       { name: "सूजी (रवा)", quantity: "1 कप" },
       { name: "तेल या घी", quantity: "2-3 चम्मच" },
