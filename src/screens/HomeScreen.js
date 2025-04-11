@@ -9,6 +9,7 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from "react-native-responsive-screen";
+import Sabji from "../components/Sabji";
 
 const Home = ({ navigation }) => {
   return (
@@ -18,6 +19,7 @@ const Home = ({ navigation }) => {
         <Nasta />
         <Mithai />
         <RotiPuri />
+        <Sabji />
         <Manshari />
         <Manshari />
         <Manshari />
