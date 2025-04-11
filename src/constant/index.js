@@ -3658,6 +3658,7 @@ export const SabjiList = [
   {
     id: "10",
     dish: "लौकी की सब्ज़ी",
+    img: require("../../assets/images/laukikisabji.png"),
     ingredients: [
       { name: "लौकी", quantity: "500 ग्राम, छीली और टुकड़ों में कटी हुई" },
       { name: "प्याज", quantity: "1 मध्यम, बारीक कटा हुआ" },
@@ -3706,6 +3707,7 @@ export const SabjiList = [
   {
     id: "11",
     dish: "आलू-शिमला मिर्च",
+    img: require("../../assets/images/aalu-simlamirch.png"),
     ingredients: [
       { name: "आलू", quantity: "3 मध्यम, छिले और लंबे कटे हुए" },
       {
@@ -3754,6 +3756,7 @@ export const SabjiList = [
   {
     id: "12",
     dish: "मिक्स वेजिटेबल",
+    img: require("../../assets/images/mix-vejitabal2.png"),
     ingredients: [
       { name: "आलू", quantity: "1 मध्यम, कटे हुए" },
       { name: "गाजर", quantity: "1, कटे हुए" },
@@ -3810,6 +3813,7 @@ export const SabjiList = [
   {
     id: "13",
     dish: "बैंगन की सब्ज़ी",
+    img: require("../../assets/images/baiganki.png"),
     ingredients: [
       { name: "बैंगन", quantity: "500 ग्राम, छोटे टुकड़ों में कटे हुए" },
       { name: "आलू", quantity: "2 मध्यम, कटे हुए (वैकल्पिक)" },
@@ -3855,6 +3859,7 @@ export const SabjiList = [
   {
     id: "14",
     dish: "लौकी की सब्ज़ी",
+    img: require("../../assets/images/laukikisabji.png"),
     ingredients: [
       { name: "लौकी", quantity: "500 ग्राम, छिली और टुकड़ों में कटी हुई" },
       { name: "प्याज", quantity: "1, बारीक कटी हुई" },
@@ -3902,6 +3907,7 @@ export const SabjiList = [
   {
     id: "15",
     dish: "तोरई की सब्ज़ी",
+    img: require("../../assets/images/torai-ki-sabji.png"),
     ingredients: [
       { name: "तोरई (तुरई)", quantity: "500 ग्राम, छिली और कटी हुई" },
       { name: "प्याज", quantity: "1, बारीक कटी हुई" },
