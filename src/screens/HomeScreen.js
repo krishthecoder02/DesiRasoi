@@ -21,8 +21,6 @@ const Home = ({ navigation }) => {
         <RotiPuri />
         <Sabji />
         <Manshari />
-        <Manshari />
-        <Manshari />
       </View>
     </ScrollView>
   );
