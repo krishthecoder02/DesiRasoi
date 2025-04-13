@@ -276,6 +276,7 @@ export const nastaList = [
   {
     id: "5",
     dish: "आलू पराठा",
+    img: require("../../assets/images/aalu.png"),
     ingredients: [
       // आटा गूंथने के लिए
       { name: "गेहूं का आटा", quantity: "2 कप" },
@@ -332,6 +333,7 @@ export const nastaList = [
   {
     id: "6",
     dish: "छोले भटूरे",
+    img: require("../../assets/images/cholebhature.png"),
     ingredients: [
       // छोले के लिए
       { name: "काबुली चना (छोले)", quantity: "1 कप (रातभर भिगोए हुए)" },
@@ -412,6 +414,7 @@ export const nastaList = [
   {
     id: "7",
     dish: "थेपला",
+    img: require("../../assets/images/thepla.png"),
     ingredients: [
       { name: "गेहूं का आटा", quantity: "2 कप" },
       { name: "बेसन", quantity: "2 टेबल स्पून" },
@@ -467,6 +470,7 @@ export const nastaList = [
   {
     id: "8",
     dish: "कांदा-बटाटा",
+    img: require("../../assets/images/kanda.png"),
     ingredients: [
       { name: "पोहा (चिवड़ा)", quantity: "1.5 कप (मध्यम मोटाई वाला)" },
       { name: "तेल", quantity: "2 टेबल स्पून" },
@@ -532,6 +536,7 @@ export const nastaList = [
   {
     id: "9",
     dish: "खिचड़ी",
+    img: require("../../assets/images/khichri.png"),
     ingredients: [
       { name: "चावल", quantity: "1 कप" },
       { name: "मूंग दाल (छिलका या बिना छिलका)", quantity: "1/2 कप" },
@@ -600,6 +605,7 @@ export const nastaList = [
   {
     id: "10",
     dish: "ढोकला",
+    img: require("../../assets/images/dhokla.png"),
     ingredients: [
       // बेसिक सामग्री
       { name: "बेसन (चना आटा)", quantity: "1 कप" },
@@ -668,6 +674,7 @@ export const nastaList = [
   {
     id: "11",
     dish: "आलू पूरी",
+    img: require("../../assets/images/aalupuri.png"),
     ingredients: [
       // पूरी के लिए सामग्री
       { name: "गेहूं का आटा", quantity: "2 कप" },
@@ -734,6 +741,7 @@ export const nastaList = [
   {
     id: "12",
     dish: "मिसल पाव",
+    img: require("../../assets/images/miselpav.png"),
     ingredients: [
       // मिसल (उसळ) के लिए
       { name: "मटकी (मोटे अंकुरित मूंग)", quantity: "1 कप" },
@@ -808,6 +816,7 @@ export const nastaList = [
   {
     id: "13",
     dish: "ब्रेड पकोड़ा",
+    img: require("../../assets/images/breadpakoda.png"),
     ingredients: [
       // स्टफिंग के लिए (आलू मसाला)
       { name: "उबले हुए आलू", quantity: "3-4 मध्यम (मैश किए हुए)" },
@@ -871,6 +880,7 @@ export const nastaList = [
   {
     id: "14",
     dish: "लिट्टी चोखा",
+    img: require("../../assets/images/litti.png"),
     ingredients: [
       // लिट्टी के लिए
       { name: "गेहूं का आटा", quantity: "2 कप" },
@@ -1152,7 +1162,7 @@ export const mithaiList = [
   {
     id: "5",
     dish: " लड्डू ",
-    img: require("../../assets/images/laddu.avif"),
+    img: require("../../assets/images/laddu.png"),
     ingredients: [
       { name: "बेसन", quantity: "1 कप" },
       { name: "घी", quantity: "1/2 कप" },
@@ -1199,6 +1209,7 @@ export const mithaiList = [
   {
     id: "6",
     dish: "बर्फी",
+    img: require("../../assets/images/barphi.png"),
     ingredients: [
       { name: "मिल्क पाउडर", quantity: "2 कप" },
       { name: "दूध", quantity: "1 कप" },
@@ -1243,6 +1254,7 @@ export const mithaiList = [
   {
     id: "7",
     dish: "संदेश",
+    img: require("../../assets/images/sandesh.png"),
     ingredients: [
       { name: "फ्रेश छेना (पनीर)", quantity: "1 कप" },
       { name: "पिसी चीनी", quantity: "1/2 कप" },
@@ -1286,6 +1298,7 @@ export const mithaiList = [
   {
     id: "8",
     dish: "पेड़ा",
+    img: require("../../assets/images/peda.png"),
     ingredients: [
       { name: "मावा (खोया)", quantity: "1 कप" },
       { name: "पिसी चीनी", quantity: "1/2 कप" },
@@ -1330,6 +1343,7 @@ export const mithaiList = [
   {
     id: "9",
     dish: "मैसूर पाक",
+    img: require("../../assets/images/maisur.png"),
     ingredients: [
       { name: "बेसन (चने का आटा)", quantity: "1 कप" },
       { name: "घी", quantity: "1 कप (गर्म घी)" },
@@ -1378,6 +1392,7 @@ export const mithaiList = [
   {
     id: "10",
     dish: "मोदक",
+    img: require("../../assets/images/modak.png"),
     ingredients: [
       { name: "चावल का आटा", quantity: "1 कप" },
       { name: "पानी", quantity: "1 कप" },
@@ -1424,6 +1439,7 @@ export const mithaiList = [
   {
     id: "11",
     dish: "रबड़ी",
+    img: require("../../assets/images/labdi.png"),
     ingredients: [
       { name: "फुल क्रीम दूध", quantity: "1 लीटर" },
       { name: "चीनी", quantity: "4-5 टेबल स्पून (स्वादानुसार)" },
@@ -1468,6 +1484,7 @@ export const mithaiList = [
   {
     id: "12",
     dish: "मालपुआ",
+    img: require("../../assets/images/malpuwa.png"),
     ingredients: [
       { name: "मैदा (सफेद आटा)", quantity: "1 कप" },
       { name: "सूजी (रवा)", quantity: "1/4 कप" },
@@ -1517,6 +1534,7 @@ export const mithaiList = [
   {
     id: "13",
     dish: "पीठा",
+    img: require("../../assets/images/pitha.png"),
     ingredients: [
       { name: "चावल का आटा", quantity: "1 कप" },
       { name: "गुड़", quantity: "1/2 कप (कद्दूकस किया हुआ)" },
@@ -1561,6 +1579,7 @@ export const mithaiList = [
   {
     id: "14",
     dish: "घेवर",
+    img: require("../../assets/images/ghebra.png"),
     ingredients: [
       { name: "मैदा", quantity: "1 कप" },
       { name: "घी", quantity: "1/4 कप (पिघला हुआ)" },
@@ -1616,6 +1635,7 @@ export const mithaiList = [
   {
     id: "15",
     dish: "हलवा",
+    img: require("../../assets/images/halba.png"),
     ingredients: [
       { name: "सूजी (रवा)", quantity: "1 कप" },
       { name: "घी", quantity: "1/2 कप" },
