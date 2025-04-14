@@ -1870,6 +1870,7 @@ export const RotiPuriList = [
   {
     id: "5",
     dish: "अकनी रोटी",
+    img: require("../../assets/images/aki-roti.png"),
     ingredients: [
       { name: "चावल का आटा", quantity: "2 कप" },
       { name: "प्याज (बारीक कटी हुई)", quantity: "1 मध्यम आकार की" },
@@ -1914,6 +1915,7 @@ export const RotiPuriList = [
   {
     id: "6",
     dish: "रुमाली रोटी",
+    img: require("../../assets/images/roti-roti.png"),
     ingredients: [
       { name: "मैदा (सफेद आटा)", quantity: "2 कप" },
       { name: "गेहूं का आटा", quantity: "1/2 कप" },
@@ -1958,6 +1960,7 @@ export const RotiPuriList = [
   {
     id: "7",
     dish: "सादी पूरी",
+    img: require("../../assets/images/sadi-roti.png"),
     ingredients: [
       { name: "गेहूं का आटा", quantity: "2 कप" },
       { name: "नमक", quantity: "स्वादानुसार" },
@@ -2002,6 +2005,7 @@ export const RotiPuriList = [
   {
     id: "8",
     dish: "बेडमी पूरी",
+    img: require("../../assets/images/bedmi-roti.png"),
     ingredients: [
       { name: "गेहूं का आटा", quantity: "2 कप" },
       { name: "उड़द दाल", quantity: "1/2 कप (भिगोई हुई)" },
@@ -2054,6 +2058,7 @@ export const RotiPuriList = [
   {
     id: "9",
     dish: "पालक पूरी",
+    img: require("../../assets/images/palak-roti.png"),
     ingredients: [
       { name: "गेहूं का आटा", quantity: "2 कप" },
       { name: "पालक के पत्ते", quantity: "1 कप (उबले और प्यूरी बनाए हुए)" },
@@ -2107,6 +2112,7 @@ export const RotiPuriList = [
   {
     id: "10",
     dish: "मसाला पूरी",
+    img: require("../../assets/images/masala-puri.png"),
     ingredients: [
       { name: "गेहूं का आटा", quantity: "2 कप" },
       { name: "बेसन", quantity: "2 चम्मच" },
@@ -2200,6 +2206,7 @@ export const RotiPuriList = [
   {
     id: "12",
     dish: "सत्तू पूरी",
+    img: require("../../assets/images/sattu-puri.png"),
     ingredients: [
       { name: "गेहूं का आटा", quantity: "2 कप" },
       { name: "सत्तू (चना आटा)", quantity: "1 कप" },
@@ -2252,6 +2259,7 @@ export const RotiPuriList = [
   {
     id: "13",
     dish: "कचौरी",
+    img: require("../../assets/images/kachori.png"),
     ingredients: [
       // बाहरी परत के लिए
       { name: "मैदा", quantity: "2 कप" },
@@ -2307,6 +2315,7 @@ export const RotiPuriList = [
   {
     id: "14",
     dish: "मक्के रोटी",
+    img: require("../../assets/images/makke-roti.png"),
     ingredients: [
       { name: "मक्के का आटा", quantity: "2 कप" },
       { name: "गुनगुना पानी", quantity: "आवश्यकतानुसार (गूंधने के लिए)" },
@@ -2343,6 +2352,7 @@ export const RotiPuriList = [
   {
     id: "15",
     dish: "ज्वार रोटी",
+    img: require("../../assets/images/jwar-roti.png"),
     ingredients: [
       { name: "ज्वार का आटा", quantity: "2 कप" },
       { name: "पानी", quantity: "गूंधने और पकाने के लिए आवश्यकतानुसार" },
@@ -2496,6 +2506,7 @@ export const manshariList = [
   {
     id: "3",
     dish: "रोगन जोश",
+    img: require("../../assets/images/rogan-jos.png"),
     ingredients: [
       { name: "मटन (हड्डी वाला)", quantity: "500 ग्राम" },
       { name: "दही", quantity: "1 कप (फेंटा हुआ)" },
@@ -2551,6 +2562,7 @@ export const manshariList = [
   {
     id: "4",
     dish: "मटन करी",
+
     img: require("../../assets/images/muttonchurri.png"),
     ingredients: [
       { name: "मटन", quantity: "500 ग्राम (धोकर साफ किया हुआ)" },
@@ -2612,6 +2624,7 @@ export const manshariList = [
   {
     id: "5",
     dish: "तंदूरी चिकन",
+    img: require("../../assets/images/tanduri-chikan.png"),
     ingredients: [
       { name: "चिकन लेग पीस", quantity: "4-6 (छेद कर लें)" },
       { name: "दही", quantity: "1/2 कप (फेंटा हुआ)" },
@@ -2665,6 +2678,7 @@ export const manshariList = [
   {
     id: "6",
     dish: "चेत्तीनाड चिकन",
+    img: require("../../assets/images/chikken-chitter.png"),
     ingredients: [
       { name: "चिकन (बोन या बोनलेस)", quantity: "500 ग्राम" },
       { name: "प्याज", quantity: "2 (बारीक कटी हुई)" },
@@ -2723,6 +2737,7 @@ export const manshariList = [
   {
     id: "7",
     dish: "फिश करी",
+    img: require("../../assets/images/fish-kari.png"),
     ingredients: [
       {
         name: "फिश (रोहू या पसंदीदा मछली)",
@@ -2776,6 +2791,7 @@ export const manshariList = [
   {
     id: "8",
     dish: "चिकन 65",
+    img: require("../../assets/images/chikken-65.png"),
     ingredients: [
       {
         name: "चिकन (बोनलेस)",
@@ -2824,6 +2840,7 @@ export const manshariList = [
   {
     id: "9",
     dish: "लाल मांस",
+    img: require("../../assets/images/lal-mansh.png"),
     ingredients: [
       { name: "मटन (हड्डी वाला)", quantity: "500 ग्राम" },
       { name: "सरसों का तेल", quantity: "5 बड़े चम्मच" },
@@ -2898,6 +2915,7 @@ export const manshariList = [
   {
     id: "10",
     dish: "कीमा पाव",
+    img: require("../../assets/images/keema-pav.png"),
     ingredients: [
       { name: "चिकन या मटन कीमा", quantity: "500 ग्राम" },
       { name: "प्याज", quantity: "2 (बारीक कटी हुई)" },
@@ -2944,6 +2962,7 @@ export const manshariList = [
   {
     id: "11",
     dish: "अंडा करी",
+    img: require("../../assets/images/aanda-kari.png"),
     ingredients: [
       { name: "अंडे", quantity: "4-6 (उबले हुए)" },
       { name: "तेल", quantity: "3 बड़े चम्मच" },
@@ -3072,6 +3091,7 @@ export const manshariList = [
   {
     id: "13",
     dish: "चिकन चंगेज़ी",
+    img: require("../../assets/images/chkken-chang.jpg"),
     ingredients: [
       { name: "चिकन", quantity: "500 ग्राम (बोनलेस या हड्डी वाला)" },
       { name: "दही", quantity: "1/2 कप" },
@@ -3124,6 +3144,7 @@ export const manshariList = [
   {
     id: "14",
     dish: "भुना गोश्त",
+    img: require("../../assets/images/bhuna-gahota.jpg"),
     ingredients: [
       { name: "मटन (गोश्त)", quantity: "500 ग्राम (साफ और धोया हुआ)" },
       { name: "तेल", quantity: "4 बड़े चम्मच" },
@@ -3186,6 +3207,7 @@ export const manshariList = [
   {
     id: "15",
     dish: "आंध्र चिकन करी",
+    img: require("../../assets/images/andhra-chikken.png"),
     ingredients: [
       { name: "चिकन", quantity: "500 ग्राम (हड्डी के साथ)" },
       { name: "प्याज", quantity: "2 (बारीक कटे हुए)" },
